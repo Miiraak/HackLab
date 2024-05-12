@@ -1,4 +1,4 @@
-# HackLab
+# HackLab 💻
 Pentesting/Hack &amp; autre trucs en local sous Hyper-V
 ________________________________
 ________________________________
@@ -6,7 +6,7 @@ ________________________________
 - Windows 10/11 Pro
 ________________________________
 ________________________________
-## Installation :
+## Installation ⏬:
 - Téléchargez [MediaCreationTool_22H2](https://go.microsoft.com/fwlink/?LinkId=2265055)
   - Choisissez "Créer un support d'installation
   - Sauvegardez l'ISO sur votre bureau
@@ -16,7 +16,7 @@ ________________________________
 
 [image]
 ________________________________
-### Ubuntu Victim :
+### Ubuntu Victim :feelsgood: :
 - Lancez le gestionaire Hyper-v
 - Dans le gestionnaire :
 - Cliquez sur "Création rapide"
@@ -26,14 +26,14 @@ ________________________________
 
 - Donnez lui un nom reconaissable : Ubuntu Victim
 ________________________________
-### Windows 10 Victim :
+### Windows 10 Victim :feelsgood: :
 - Séléctionnez "Source d'installation_locale"
 - Cliquez "Modifier la source d'installation"
 - Choisissez l'ISO Windows préalablement téléchargé
 
 [image]
 ________________________________
-### Kali-Linux :
+### Kali-Linux 🐉:
 -  Extrayez kali-linux-2024.1-hyperv-amd64.7z  
 -  Retournez sur le gestionnaire Hyper-V
 -  Cliquez sur "Création Rapide"
