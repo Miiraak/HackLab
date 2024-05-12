@@ -12,9 +12,10 @@ ________________________________
   - Sauvegardez l'ISO sur votre bureau
 - Téléchargez l'[iso Hyper-V Kali-Linux](https://cdimage.kali.org/kali-2024.1/kali-linux-2024.1-hyperv-amd64.7z)
 - L'.ISO Ubuntu est intégré à Hyper-V
-- Activez la fonctionalité Hyper-V :
 
-[image]
+### Activez la fonctionalité Hyper-V :
+![image](https://github.com/Miiraak/HackLab/blob/main/images/activateFuncWin.png)
+
 ________________________________
 ### Ubuntu Victim :feelsgood: :
 - Lancez le gestionaire Hyper-v
@@ -22,7 +23,7 @@ ________________________________
 - Cliquez sur "Création rapide"
 - Puis
  
-[image]
+![image](https://github.com/Miiraak/HackLab/blob/main/images/ubuntuNewVM.png)
 
 - Donnez lui un nom reconaissable : Ubuntu Victim
 ________________________________
@@ -31,7 +32,7 @@ ________________________________
 - Cliquez "Modifier la source d'installation"
 - Choisissez l'ISO Windows préalablement téléchargé
 
-[image]
+![image]()
 ________________________________
 ### Kali-Linux 🐉:
 -  Extrayez kali-linux-2024.1-hyperv-amd64.7z  
@@ -41,7 +42,7 @@ ________________________________
 -  Décochez "Cet ordinateur virtuel va exécuter Windows"
 -  Sélectionnez "Modifier la source d'installation"
 
-[image]
+![image](https://github.com/Miiraak/HackLab/blob/main/images/kali_LinuxNewVM.png)
 ________________________________
 ### Création Commutateur :
 - Une fois vos machines crées et nommée allez dans le gestionnaire et seléctionnez "Gestionnaire de commutateur virtuel"
@@ -50,7 +51,7 @@ ________________________________
 - Cochez "Autorisez le system d'exploitation de gestion à partager cette carte réseau"
 - "Appliquez" puis "OK"
 
-[image]
+![image](https://github.com/Miiraak/HackLab/blob/main/images/commutateur.png)
 ________________________________
 ### Mise en réseau :
 - Selectionnez une machines virtuelles
@@ -61,7 +62,7 @@ ________________________________
 - "Appliquez" puis "OK"
 - Réitérez avec les deux autres ordinateurs virtuels
 
-[image]
+![image](https://github.com/Miiraak/HackLab/blob/main/images/changeCommutateur.png)
 ________________________________
 ### Connexion aux machines & Maj :
 - Double-cliquez sur la machine Kali-Linux et Ubuntu
