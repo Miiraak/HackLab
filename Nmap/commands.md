@@ -15,6 +15,10 @@ Tout les ports :
 Les X top ports :
 
     Command: nmap --top-ports <num> <cible>
+
+Outre passe la réolution DNS :
+
+    Command: nmap -n <cible>
 _____________________
 ## Sauvegarde :
 
@@ -67,6 +71,12 @@ Cette technique est utilisée pour trouver les services spécifique utilisant le
 Un scan avancé qui n'envois aucun paquet depuis notre propre adresse IP, elle passe par un autre host du réseau de la cible pour envoyer de paquet.
 
     Command: nmap -sI <cible>
+
+### Scan All (-A)
+
+Un scan super agressif qui effectue un scan OS (version, scan script, traceroute...)
+
+    Command: nmap -A <tier> <cible>
 
 ### Scan OS (-O)
 
