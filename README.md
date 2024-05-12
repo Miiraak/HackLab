@@ -9,7 +9,7 @@ ________________________________
 ## Installation :
 - Téléchargez [MediaCreationTool_22H2](https://go.microsoft.com/fwlink/?LinkId=2265055)
   - Choisissez "Créer un support d'installation
-  - ...
+  - Sauvegardez l'ISO sur votre bureau
 - Téléchargez l'[iso Hyper-V Kali-Linux](https://cdimage.kali.org/kali-2024.1/kali-linux-2024.1-hyperv-amd64.7z)
 - L'.ISO Ubuntu est intégré à Hyper-V
 - Activez la fonctionalité Hyper-V :
@@ -75,6 +75,10 @@ ________________________________
 ________________________________
 ### Customisez vos machine avec vos application préférée :
 - Installez simplement vos application comme d'habitude
+________________________________
+### Backup :
+- Une fois que vous vous êtes assuré que tout fonctionne correctement, faite une sauvegarde de vos VM
+- Vous pouvez ensuite supprimer les .ISO téléchargé (Kali & Windows)
 ________________________________
 ### Passez en Local :
 - Quittez vos machines virtuelles
