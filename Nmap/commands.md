@@ -41,7 +41,11 @@ Un scan avancé qui n'envois aucun paquet depuis notre propre adresse IP, elle p
 
     Command: nmap -sI <cible>
 _____________________
+### Scan OS (-O)
 
+Un scan complet des port ouvert, les services, la MAC adresse, le type de materiel, la version de l'OS, l'OS et des détails supplémentaires.
 
+    Command: nmap -O <cible>
+______________________
 
 
