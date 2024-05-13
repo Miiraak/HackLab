@@ -12,6 +12,10 @@ Tout les ports :
 
     Command: nmap -p- <cible>
 
+Verbose :
+
+    Command: nmap -v <options> <cible>
+
 Les X top ports :
 
     Command: nmap --top-ports <num> <cible>
@@ -54,7 +58,7 @@ Nmap envoie un paquet SYN à la cible, mais ne crée aucune session, cela a pour
 
     Command: nmap -sS <cible>
 
-### TCP Connect() Scan (-sT)
+### Scan TCP Connect() (-sT)
 
 UNIX socket utilise un systme appelé connect() pour démarrer une connexion TCP.
 
