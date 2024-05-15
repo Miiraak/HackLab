@@ -1,6 +1,7 @@
 # Guide HackLab : Windows 10/11
 
-Nous installerons une machine virtuel Kali-Linux et un second PC "Victime" qui nous permettera de tester toute sorte de choses en toute légalité sans compromettre notre sécurité et sans dépenser le moindre centime et crérons un réseau local fermé pour ces deux ordinateurs par la suite.
+Nous installerons une machine virtuel Kali-Linux et un second PC "Victime" qui nous permettera de tester toute sorte de choses en toute légalité sans compromettre notre sécurité et sans dépenser le moindre centime.
+Nous créerons un réseau local fermé pour ces deux ordinateurs par la suite.
 ## Requis :
 - VirtualBox comme virtualisateur, un logiciel de libre de virtualisation, tournant sur Windows, MacOS et Linux.
 - L'OS Kali-Linux pour notre PC d'attaque. 
