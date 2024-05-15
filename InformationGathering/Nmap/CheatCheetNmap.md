@@ -1,40 +1,35 @@
 # Nmap : CheatCheet
 ## Target Specification
-### Scan Mono IP :
-
-    nmap <host>
-
-### Scan Multi IP :
-
-    nmap <host> <host>
-    
-### Scan Range IP :
-
-    nmap 192.168.1.1-254
-
-### Scan Domain
 ```
-    nmap [scanme.nmap.org]
+EXAMPLE	:              DESCRIPTION :
+nmap <host>            Simple IP Scan
+nmap <host> <host>     Multi IP Scan
+nmap <host>-245        Range IP Scan
+nmap <domain>          Domain Scan
 ```
 
-Les X top ports :
-
-    nmap --top-ports <num> <cible>
-
-Outre passe la réolution DNS :
-
-    nmap -n <cible> 
-_____________________
 ## Nmap Scan Technique
 ```
--sS	nmap 192.168.1.1 -sS	TCP SYN port scan (Default)
--sT	nmap 192.168.1.1 -sT	TCP connect port scan (Default without root privilege)
--sU	nmap 192.168.1.1 -sU	UDP port scan
--sA	nmap 192.168.1.1 -sA	TCP ACK port scan
--sW	nmap 192.168.1.1 -sW	TCP Window port scan
--sM	nmap 192.168.1.1 -sM	TCP Maimon port scan
+SWITCH:     EXAMPLE :	                DESCRIPTION :
+-sS	    nmap 192.168.1.1 -sS	TCP SYN port scan (Default)
+-sT	    nmap 192.168.1.1 -sT	TCP connect port scan (Default without root privilege)
+-sU	    nmap 192.168.1.1 -sU	UDP port scan
+-sA	    nmap 192.168.1.1 -sA	TCP ACK port scan
+-sW	    nmap 192.168.1.1 -sW	TCP Window port scan
+-sM	    nmap 192.168.1.1 -sM	TCP Maimon port scan
 ```
-## Sauvegarde :
+## Host Discovery :
+```
+SWITCH :    EXAMPLE	:                       DESCRIPTION :
+-sL	    nmap 192.168.1.1-3 -sL	        No Scan. List targets only
+-sn	    nmap 192.168.1.1/24 -sn	        Disable port scanning. Host discovery only.
+-Pn	    nmap 192.168.1.1-5 -Pn	        Disable host discovery. Port scan only.
+-PS	    nmap 192.168.1.1-5 -PS22-25,80	TCP SYN discovery on port x. Port 80 by default
+-PA	    nmap 192.168.1.1-5 -PA22-25,80	TCP ACK discovery on port x. Port 80 by default
+-PU	    nmap 192.168.1.1-5 -PU53	        UDP discovery on port x. Port 40125 by default
+-PR	    nmap 192.168.1.1-1/24 -PR	        ARP discovery on local network
+-n	    nmap 192.168.1.1 -n	                Never do DNS resolution
+```
 
 Sauvegarde les résultats sous format .txt
 
@@ -42,8 +37,14 @@ Sauvegarde les résultats sous format .txt
 Sauvegarde sous format XML
 
     nmap <options> <cible> -oX output.xml
+
 _____________________
 ## Commandes spécifiques :
+
+### Outre passe la réolution DNS :
+
+    nmap -n <cible> 
+    
 ### Scan UDP (-sU)
 
 Scan les ports UDP ouverts de la cible (IP/hostName). Envoi un paquet UDP à chaque ports de la cible et attend une réponse. Il il recois un message d'erreur cela signifie que les ports sont fermé. Cependant si il n'y a aucune réponse, cela signifie que les ports sont ouvert.
