@@ -1,20 +1,21 @@
-# Nmap : Commands & Trucs
-## Commande basique :
-### Scan basique des 1000 premiers ports :
+# Nmap : CheatCheet
+## Target Specification
+### Scan Mono IP :
 
-    nmap <cible>
+    nmap <host>
 
-### Scan de port spécifiques :
+### Scan Multi IP :
 
-    nmap -p <num>-<num> <cible>
+    nmap <host> <host>
     
-Tout les ports :
+### Scan Range IP :
 
-    nmap -p- <cible>
+    nmap 192.168.1.1-254
 
-Verbose :
-
-    nmap -v <options> <cible>
+### Scan Domain
+```
+    nmap [scanme.nmap.org]
+```
 
 Les X top ports :
 
@@ -22,8 +23,17 @@ Les X top ports :
 
 Outre passe la réolution DNS :
 
-    nmap -n <cible>
+    nmap -n <cible> 
 _____________________
+## Nmap Scan Technique
+```
+-sS	nmap 192.168.1.1 -sS	TCP SYN port scan (Default)
+-sT	nmap 192.168.1.1 -sT	TCP connect port scan (Default without root privilege)
+-sU	nmap 192.168.1.1 -sU	UDP port scan
+-sA	nmap 192.168.1.1 -sA	TCP ACK port scan
+-sW	nmap 192.168.1.1 -sW	TCP Window port scan
+-sM	nmap 192.168.1.1 -sM	TCP Maimon port scan
+```
 ## Sauvegarde :
 
 Sauvegarde les résultats sous format .txt
