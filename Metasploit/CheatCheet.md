@@ -23,3 +23,8 @@ Charger un exploit :
 ```
     use [n°liste/nom]
 ```
+
+Lancez un exploit (generalisation) :
+```
+    run [options] [Host] [args]
+```
