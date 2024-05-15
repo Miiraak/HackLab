@@ -13,3 +13,13 @@ Executer une recherche :
 ```
     search [options] [keywords:value]
 ```
+
+Infos exploit :
+```
+    info [n°liste/nom]
+```
+
+Charger un exploit :
+```
+    use [n°liste/nom]
+```
