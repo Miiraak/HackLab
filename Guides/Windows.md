@@ -12,11 +12,49 @@ __________________________
 - Télécharger l'executable windows [VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
 - Lancer l'exécutable et suivez la procédure standard d'installation.
 ### Kali-Linux :
-- Téléchargez l'iso de Kali [ici](https://cdimage.kali.org/kali-2024.1/kali-linux-2024.1-virtualbox-amd64.7z)
+- Téléchargez l'ISO de Kali [ici](https://cdimage.kali.org/kali-2024.1/kali-linux-2024.1-virtualbox-amd64.7z)
 ### Metaploitable 2 :
-- Téléchargez l'iso Metasploitable [ici](https://sourceforge.net/projects/metasploitable/)
+- Téléchargez l'ISO Metasploitable [ici](https://sourceforge.net/projects/metasploitable/)
 
 ## Création des VM :
-- [...]
+- Allez dans C:/Utilisateurs/[...]/VirtualBox VMs
+- Créez un dossier ISO et extrayez vos ISO compressée à l'intérieur.
+- Lancez VirtualBox
+  
+### Kali-Linux
+- Appuyez sur "Nouvelle"
+  ```
+  Nom: Kali-Linux
+  Folder: C:\Users\...\VirtualBox VMs
+  ISO image: <non sélectionné>
+  Edition:
+  Type: Linux
+  Version: Debian (64-bit) (Other Linux (64-bit) si vous avez une machine avec peu de RAM)
+  ```
+- Suivant > Suivant > Suivant > Finish
+- Cliquez sur configuration
+- Stockage
+- Supprimez le kali-Linux.vdi
+- Selectionnez kali-linux.vdi que vous avez téléchargé.
+
+### Metasploitable
+- Appuyez sur "Nouvelle"
+  ```
+  Nom: Metasploitable
+  Folder: C:\Users\...\VirtualBox VMs
+  ISO image: <non sélectionné>
+  Edition:
+  Type: Linux
+  Version: Other Linux (64-bit)
+  ```
+- Suivant > Suivant > Suivant > Finish
+- Cliquez sur configuration
+- Stockage
+- Supprimez le Metasploitable.vdi
+- Selectionnez le Metasploitable.vmdk que vous avez téléchargé.
 __________________________________
 ## Paramétrage :
+### Kali-Linux :
+
+### Metasploitable :
+
