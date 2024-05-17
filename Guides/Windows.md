@@ -116,3 +116,10 @@ Nous créerons aussi un "réseau NAT" pour permettre aux deux ordinateurs de se 
 - C'est tout, elle est exploitable
 
 ---
+
+Voilà, nous avons crée nos deux machines et les avons mise dans un réseau commun, <br>laissant à notre machine attaquante la possibilité d'accès à internet tout en isolant notre machine vulnérable dans un réseau dédié.
+
+A partir d'ici vous pouvez commencer à vous amuser tranquillement à tester vos attaques et divers magouilles.<br>
+N'hésitez pas à lire les différentes documentations disponibles sur internet ou a explorer par vous même à la recherche d'infos.<br>
+
+Je metterai petit à petit à jour le repository avec mes divers testes et recherche traduites en français
