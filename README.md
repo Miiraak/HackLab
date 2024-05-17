@@ -14,8 +14,6 @@ __________________________________
 __________________________________
 ## Guide :
 Choissez votre OS :
-- #### [Windows](https://github.com/Miiraak/HackLab/blob/main/Guides/Windows.md)
-- #### Linux
-- #### MacOS
-  
+
+[<img width="100px" src="https://github.com/Miiraak/HackLab/blob/main/images/windows_logo.png">](https://github.com/Miiraak/HackLab/blob/main/Guides/Windows.md) [<img width="100px" src="https://github.com/Miiraak/HackLab/blob/main/images/linux_logo.png">](https://github.com/Miiraak/HackLab/blob/main/Guides/Linux.md) [<img width="100px" src="https://github.com/Miiraak/HackLab/blob/main/images/macos_logo.png">](https://github.com/Miiraak/HackLab/blob/main/Guides/macOS.md)
 __________________________________
